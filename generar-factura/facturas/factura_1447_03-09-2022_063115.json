@@ -1,0 +1,62 @@
+[
+    {
+        "cantidad": 2,
+        "descripcion": "Producto con codigo 2809",
+        "precio_unitario": 49,
+        "total": 98
+    },
+    {
+        "cantidad": 21,
+        "descripcion": "Producto con codigo 143",
+        "precio_unitario": 125,
+        "total": 2625
+    },
+    {
+        "cantidad": 3,
+        "descripcion": "Producto con codigo 207",
+        "precio_unitario": 272,
+        "total": 816
+    },
+    {
+        "cantidad": 22,
+        "descripcion": "Producto con codigo 1745",
+        "precio_unitario": 18,
+        "total": 396
+    },
+    {
+        "cantidad": 17,
+        "descripcion": "Producto con codigo 1208",
+        "precio_unitario": 227,
+        "total": 3859
+    },
+    {
+        "cantidad": 20,
+        "descripcion": "Producto con codigo 498",
+        "precio_unitario": 223,
+        "total": 4460
+    },
+    {
+        "cantidad": 28,
+        "descripcion": "Producto con codigo 2804",
+        "precio_unitario": 183,
+        "total": 5124
+    },
+    {
+        "cantidad": 36,
+        "descripcion": "Producto con codigo 626",
+        "precio_unitario": 189,
+        "total": 6804
+    },
+    {
+        "cantidad": 50,
+        "descripcion": "Producto con codigo 2467",
+        "precio_unitario": 148,
+        "total": 7400
+    },
+    {
+        "cantidad": 21,
+        "descripcion": "Producto con codigo 2320",
+        "precio_unitario": 108,
+        "total": 2268
+    }
+]

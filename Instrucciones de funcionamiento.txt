@@ -1,0 +1,20 @@
+Instrucciones para hacer correr el Aplicativo
+
+Se debe abrir el CMD y posicionarse en la carpeta donde se encuentran los proyectos: "ProyectoSpringIntegration"
+
+1. Se debe levantar el servidor FTP
+Ejecutar el comando: ftpserver-1.2.0\bin\ftpd.bat res\conf\ftpd-typical.xml
+
+2. Se debe levantar el Web Service que devuelve la informacion de compras realizadas, ingresando a la carpeta "ws-detalle-factura"
+Ejecutar el comando: mvn spring-boot:run
+
+3. Para generar el archivo de factura a partir del web service, se debe ingresar a la carpeta "generar-factura" 
+Ejecutar el comando: mvn spring-boot:run
+
+4. Para leer los archivos de facturas del directorio local y subirlos al servidor ftp, se debe ingresar a la carpeta "subir-ftp" 
+Ejecutar el comando: mvn spring-boot:run
+
+
+La aplicacion recuperara la información del web service de detalle factura y generara un archivo de texto, que posteriomente copiara a la carpeta "ftpserver-1.2.0\res\home" del servidor FTP.
+
+
